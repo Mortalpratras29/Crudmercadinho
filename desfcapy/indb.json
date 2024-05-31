@@ -1,0 +1,14 @@
+[
+  {
+    "Nome": "limao",
+    "Preco": 2.5,
+    "Quantidade": 1,
+    "ID": 2
+  },
+  {
+    "Nome": "laranja",
+    "Preco": 1.125,
+    "Quantidade": 4,
+    "ID": 4
+  }
+]
