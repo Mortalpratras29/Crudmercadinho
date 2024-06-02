@@ -114,7 +114,8 @@ while True:
         produto = google(busca)
         if produto:
             porcem = int(input("Escolha a porcentagem da promoção: "))
-            produto["Preco"] *= 1 - porcem / 100
+            subtracao = (produto["Preco"] * porcem) / 100
+            produto["Preco"] = produto["Preco"] - subtracao
             print(f'O produto {produto["Nome"]} entrou em promoção de {porcem}%')
             atualizar_produto(produto)
         else:
